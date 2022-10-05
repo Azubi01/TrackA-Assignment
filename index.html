@@ -6,76 +6,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elizabeth Kihuha</title>
   </head>
+
   <body>
-    <h1 style="color: rgb(126, 12, 157)"><em>HELLO AND WELCOME,</em></h1>
-    <h3 style="color: rgb(90, 40, 88)"><b>I AM ELIZABETH KIHUHA</b></h3>
-    <h3 style="color: rgb(90, 40, 88)">A <b>Cloud Engineer</b></h3><br />
-    <hr>
-
-    <h2 style="color: rgb(126, 12, 157)"><b>ABOUT ME</b></h2>
+    <!--
+        <div> tags are important and are used to define a division or a section.
+        It does not affect the content or layout and is used to group HTML elements to be
+        styled with CSS or manipulated with scripts.
+    -->
+    <div id="Welcome" style="color: rgb(90, 40, 88)">
+      <h1><em>HELLO AND WELCOME,</em></h1>
+      <h2><b>I AM ELIZABETH KIHUHA</b></h2>
+      <h2>A<b>Cloud Engineer</b></h2>
+    </div>
     
-    <img src="images/enjesh.jpg" alt="alt="Image" height="400" width="400">
-    <br>
-    
-    <p style="color: rgb(90, 40, 88)">
-      I am a cloud Engineer from Nairobi, Kenya.
-			<br>
-			In trying to make sense of this world, i bumped into tech.
-			<br>
-			Now i cannot peel myself away from it and i am falling in love with tech everyday.
-			<br>
-			I find everything exciting. I am currently learning Python, Linux, and SQL.
-			<br>
-			When i am not talking to computers i am busy being a hook ninjette.
-      <br>
-      I make beautiful, handmade items with yarn.
-    </p>
+    <div id="About Me", style="color: rgb(126, 12, 157)">
+      <h3>ABOUT ME</h3>
+        <div id="image">
+          <img src="images/enjesh.jpg" alt="alt="Image" height="400" width="400">
+        </div>        
+    </div>
 
-    <p style="color: rgb(90, 40, 88)">
-      I am open to Junior roles and internship opportuinities.
-			<br>
-      I am mostly interested in remote work.
-			<br>
-			I consider myself "forever a student" eager to build and problem solve. My curious nature
-			Got me here.
-      <br>
-      Passion to understand this fast paced, ever changing tech world will keep me motivated and fueled
-			<br>
-      I know it will not be an easy journey but i am ready and preparing for it.
-    </p>
+    <div id="Description", style="color: rgb(90, 40, 88)">
+      <h3 style="color: rgb(126, 12, 157)">Description</h3>
+        <p>
+          I am a cloud Engineer from Nairobi, Kenya.
+          <br>
+          In trying to make sense of this world, i bumped into tech.
+          <br>
+          Now i cannot peel myself away from it and i am falling in love with tech everyday.
+          <br>
+          I find everything exciting. I am currently learning Python, Linux, and SQL.
+          <br>
+          When i am not talking to computers i am busy being a hook ninjette.
+          <br>
+          I make beautiful, handmade items with yarn.
+        </p>
 
-    <ul style="color: rgb(90, 40, 88)">
-      <li><b>Education Background</b></li>
+        <p>
+          I am open to Junior roles and internship opportuinities.
+          <br>
+          I am mostly interested in remote work.
+          <br>
+          I consider myself "forever a student" eager to build and problem solve. My curious nature
+          Got me here.
+          <br>
+          Passion to understand this fast paced, ever changing tech world will keep me motivated and fueled
+          <br>
+          I know it will not be an easy journey but i am ready and preparing for it.
+        </p>
+    </div>
+
+    <div id="Education", style="color: rgb(90, 40, 88)">
+      <h3 style="color: rgb(126, 12, 157)">Education Background</h3>  
         <ol>
           <li>Kenyatta University, Bachelor of science: Sports Science</li>
           <li>Azubi Africa, AWS Restart Graduate: CCP</li>
           <li>Azubi Africa, AWS Solutions Architect Associate</li>
         </ol>
+    </div>
 
-      <li><b>Career Interest</b></li>
-        <ol>
-          <li>interested in Software Engineering with a particular focus on DevOps</li>
-          <li>Full Stack Engineer</li>
-        </ol>
+    <div id="Career", style="color: rgb(90, 40, 88)">  
+      <h3 style="color: rgb(126, 12, 157)">Career Interest</h3>
+        <ul>
+            <li>Interested in Software Engineering with a particular focus on DevOps</li>
+            <li>Full Stack Engineer</li>
+        </ul>
+    </div>
 
-      <li><b>My Hobbies</b></li>
-        <ol>
+    <div id="Hobbies", style="color: rgb(90, 40, 88)">
+      <h3 style="color: rgb(126, 12, 157)">My Hobbies</h3>
+        <ul>  
           <li>Travel</li>
           <li>Crochet</li>
-          <li>Nature</li>
-        </ol>
+          <li>Nature</li>  
+        </ul>
+    </div>
 
-      <li><b>My favorite Books</b></li>
+    <div id="Favourite Books", style="color: rgb(90, 40, 88)">
+      <h3 style="color: rgb(126, 12, 157)">Favourite Books</h3>
         <ol>
           <li>Epictitus 'The Enchiridion'</li>
           <li>Donald Goines 'Never Die Alone'</li>
           <li>Sister Souljah 'Midnight and the meaning of love'</li>
         </ol>
-    </ul>
+    </div>
 
-    <p style="color: rgb(90, 40, 88)">You can reach on my LinkedIn and GitHub pages below</p>
-    <a href="https://www.linkedin.com/in/elizabeth-kihuha">LinkedIn</a> <br>
-    <a href="https://github.com/enjesh">GitHub</a>
+    <!--
+      Use <a> tags (anchor elements) to create links in HTML.
+      Add the href attribute to add destination to the link.
+    -->
+
+    <div id="Contact", style="color: rgb(90, 40, 88)">
+      <h3 style="color: rgb(126, 12, 157)">Contact</h3>
+        <a href="https://www.linkedin.com/in/elizabeth-kihuha"><button type="button">LinkedIn</button></a>
+        <br>
+        <br>
+        <a href="https://github.com/enjesh"><button type="button">GitHub</button></a>
+        <br>
+        <br>
+        <a href="https://enjesh@gmail.com"><button type="button">email</button></a>
+    </div>
 
   </body>
 </html>
