@@ -1,43 +1,89 @@
-.navbar{
-    display: flex;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    
+}
+
+.menu{
+    width: 280px;
+    height: 100%;
+    background-color: tomato;
+    float: left;
+    
+}
+.nav-image{
+    width: 80%;
+    height: max-content;
+    margin: 15px auto;
+}
+img{
+    border: 2px solid white;
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    margin: 40px auto 0 auto;
+    display: block;
+    background-color: gray;
+    
+    
+}
+ul{
+    float: left;
+    display: grid;
     justify-content: center;
     align-items: center;
-    background-color: rgba(59, 198, 182, 0.9);
-    position: sticky;
-    top: 0;
-
 }
-.navbar ul{
-    display: flex;
+
+ul li{
     list-style: none;
-    margin: 20px 0px;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
 
-}
-.navbar ul li{
-    font-family: century;
-    font-size: 1.1res;
-    font-weight: bold;
-}
-.navbar ul li a{
+ul li a{
     text-decoration: none;
-    color: white;
-    padding: 8px 25px;
-    transition: all .5s ease;
+    padding-left: 10%;
+    color: #fff;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+    color: #3d3d3d;
+}
+.main-content{
+
+    width: 1120px;
+    height: 100%;
+    margin-left: 290px;
+    /*overflow-x: hidden;*/
+    /*padding: 15px;*/
+
     
 }
-.navbar ul li a:hover{
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 10px black;
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: flex;
+  text-decoration: none;
+  margin: 8px 5px;
+  background-color: white;
+}
+.fa:hover {
+    opacity: 0.7;
+    transition: 2.0s;
+    color: grey;
 }
 
-img{
-    padding-top: 2% ;
-    background-color: violet;
-    
-}
-
-button{
-    background-color: aquamarine;
-
-}

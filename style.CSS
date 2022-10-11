@@ -7,7 +7,7 @@ html {
 
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     background-color: rgba(59, 198, 182, 0.9);
     position: sticky;
@@ -38,7 +38,10 @@ html {
     box-shadow: 0 0 10px black;
 }
 
-div {
-    color: black;
-    font-family: verdana;
+div skills {
+    width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+    
 }
