@@ -6,34 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="miniproject.css">
+    <link rel="stylesheet" href="portfolio2.css">
 </head>
 
 <body>
     <div class="menu">
         <div class="nav-image">
-            <img src="Images&ExtLinks/ riraz1.png" alt="Rija">
+            <img src="Images&videos/riraz.png" alt="Rija">
         </div>
         
         <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT ME</a></li>
-            <li><a href="#">SERVICE</a></li>
-            <li><a href="#">PORTFOLIO</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#ABOUT ME">ABOUT ME</a></li>
+            <li><a href="#SERVICE">SERVICE</a></li>
+            <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+            <li><a href="#CONTACT">CONTACT</a></li>
         </ul>
     
     </div>
+   <!--<section class="HOME">
+        <div id="HOME">
+            <img src="Images&ExtLinks/pexels-justus-menke-5213525.jpg alt=image">
+        </div>
+    </section>-->
     <div class="main-content">
-        <div class="about">
-        <p>
-            <h1>RIJAYATU RAZAK</h1>
-            I am a Cloud Architect passionate about designing effective, well secured, robust, and cost-effective
-        Cloud Solutions. I have designed complex projects on scenario based problems and implemented them to 
-        work quite well. I have started Frontend Development to upskill myself and gain more experience in designing
-        IT solutions. I am open to entry level job roles and internships that will lead to full-time job roles.
-        </p>
-    </div>
+        <div id="ABOUT ME">
+            <h1>RIJAYATU RAZAK</h1><br>
+            <footer>
+        <section class="CONTACT">
     <div>
         <a class="fa"  href="https://www.linkedin.com/in/rijayaturazak/">
         <ion-icon name="logo-linkedin" target="_blank"></ion-icon></a>
@@ -46,6 +45,83 @@
             <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
             <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>     
     </div>
+    </section>
+    </footer><br><br><br><br><br>
+            
+        <p>
+        I am a Cloud Architect passionate about designing effective, well secured, robust, and cost-effective
+        Cloud Solutions. I have designed complex projects on scenario based problems and implemented them to 
+        work quite well. I have started Frontend Development to upskill myself and gain more experience in designing
+        IT solutions. I am open to entry level job roles and internships that will lead to full-time job roles.
+        </p>
+    </div>
+    
+    <section class="SERVICE">
+    <div id="SERVICE">
+      <h2>SERVICE</h2>
+      <p>
+        During my stay at Azubi Africa, I embarked on quite a number of scenario based projects both individually and within a team.
+        Cloud Architecture designs requires a understanding of how AWS services works and building secured, high performing, resilient,
+        and cost effective solutions is key in embarking on any project.<br>
+        Below are services I provide and I have extensive experience in these services. 
+      </p>
+      <P>
+        <ol>
+          <li>Design robust, well secured, highly available and cost effective cloud solutions.</li>
+          <li>Design static and dynamic website using HTML, CSS and JAVASCRIPT.</li>
+          <li> Host a static website on S3 using AWS Cloudfront.</li>
+        </ol>
+      </p>
+    </div>
+  </section>
+  <section class="PORTFOLIO">
+    <div id="PORTFOLIO">
+    <h2>PORTFOLIO</h2>
+    <p>
+      This is why I am developing essential skill sets to fascilitate my journey. I have embarked on some scenario based projects so far. 
+      <ol>
+        <li>Designed a highly secured cloud solution for applications</li>
+        <li>Designed a highly available and robust cloud architecture with AWS Cloud services.</li>
+        <li>I hosted a website in S3 using AWS Cloudfront</li>
+        <li>I have created a tabular data of the results of school children using HTML</li>
+      </ol>
+    </p>
+    </div>
+    </section>
+    <div id="container">
+  <form action="#">
+    <div class="user-details">
+                <div class="input-box">
+                    <span class="details">First Name</span>
+                    <input type="text" placeholder="Enter your First Name" required>
+
+                </div>
+                <div class="input-box">
+                    <span class="details">Last Name</span>
+                    <input type="text" placeholder="Enter your Last Name" required>
+                </div>
+                 <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Enter Email" required>
+                </div>
+
+    <!--<label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email address..">-->
+
+    <label for="Message">Message</label><br>
+    <textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit"><br>
+
+  </form>
+</div>
+    
     </div>
     
 </body>

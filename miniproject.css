@@ -8,14 +8,20 @@ body{
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
+    /*color: lightyellow;*/
     
 }
 
 .menu{
-    width: 280px;
-    height: 100%;
+    width: 20%;
+    height: 100vh;
     background-color: tomato;
     float: left;
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: gray;
+    position: fixed;
+    z-index: 100;
     
 }
 .nav-image{
@@ -50,6 +56,7 @@ ul li{
 
 ul li a{
     text-decoration: none;
+    align-items: flex-end;
     padding-left: 10%;
     color: #fff;
     font-family: Arial;
@@ -64,26 +71,112 @@ ul li a:hover{
 }
 .main-content{
 
-    width: 1120px;
-    height: 100%;
-    margin-left: 290px;
-    /*overflow-x: hidden;*/
-    /*padding: 15px;*/
+    width: 80%;
+    /*height: auto;*/
+    margin-left: 20%;
+    padding: 1rem;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    z-index: 100;
+    float: left;
 
     
 }
+#ABOUT ME{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+    text-align: justify;
+    font-family: Verdana;
+    margin: 0px auto;
+    width: 80%;
+    height: 100vh;
+    
+    
+    
+} 
+h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: tomato;
+}
+p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+#SERVICE{
+    font-family: Verdana;
+    text-align: justify;
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+    border: 3px soild;
+    
+    
+}
+#PROJECTS{
+    font-family: Verdana;
+    text-align: justify;
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+    width: 80%;
+    height: 100vh;
+  
+}
+ol{
+    display: inline-block;
+    border: 1px solid tomato;
+    padding: 20px;
+
+}
 .fa {
-  padding: 20px;
-  font-size: 50px;
-  width: 50px;
-  text-align: flex;
-  text-decoration: none;
-  margin: 8px 5px;
-  background-color: white;
+    padding: 20px;
+    font-size: 35px;
+    width: 50px;
+    text-align: flex;
+  
 }
 .fa:hover {
     opacity: 0.7;
-    transition: 2.0s;
+    transition: 1.0s;
     color: grey;
 }
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: darksalmon;
+    color: gray;
+}
 
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
